@@ -170,9 +170,9 @@ const students = [
   {
     "id": "d99cb0f6-26c3-48af-a819-de5b5b5d0d28",
     "nis": "13742",
-    "name": "Muhammad akhtar",
+    "name": "Muhammad Akhtar Razaan",
     "class_id": "XI-C1",
-    "created_at": null
+    "created_at": 28 Januari 2026 08:19
   },
   {
     "id": "99c6717e-7cbd-4bfa-9c9b-4873b4eb696c",
@@ -268,6 +268,7 @@ students.forEach((student, index) => {
 
   tbody.appendChild(row);
 });
+
 
 
 
