@@ -18,7 +18,7 @@ table {
 th, td {
   border: 1px solid #ccc;
   padding: 10px;
-  text-align: center;
+  text-align: left;
 }
 
 th {
@@ -29,3 +29,4 @@ th {
 tr:nth-child(even) {
   background-color: #f2f2f2;
 }
+
