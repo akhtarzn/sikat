@@ -263,8 +263,10 @@ students.forEach((student, index) => {
     <td>${student.nis}</td>
     <td>${student.name} ✅</td>
     <td>${student.class_id}</td>
+    <td>${student.created_at}</td>
   `;
 
   tbody.appendChild(row);
 });
+
 
