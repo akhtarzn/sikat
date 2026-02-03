@@ -1,5 +1,5 @@
-const SUPABASE_URL = "https://xqpogdawmqqqoakrzdts.supabase.co";
-const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhxcG9nZGF3bXFxcW9ha3J6ZHRzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Njg4NDMyOTYsImV4cCI6MjA4NDQxOTI5Nn0.5HC96GHVhmCaH6LNWeMuclRGS-xq7sjpeqUxjpkMguY";
+const SUPABASE_URL = "https://psimaoheadjgoxhpwxrn.supabase.co";
+const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBzaW1hb2hlYWRqZ294aHB3eHJuIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjkwNTc3MTAsImV4cCI6MjA4NDYzMzcxMH0.vzAlZl22Uqr02WhFpEC98Ud5F4cwA7Qwuj_tDpuj4O4";
 
 const tbody = document.getElementById("data-siswa");
 
@@ -53,4 +53,5 @@ fetch(`${SUPABASE_URL}/rest/v1/students?select=*`, {
       <td colspan="4">Data gagal dimuat</td>
     </tr>
   `;
+
 });
