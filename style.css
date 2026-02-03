@@ -1,6 +1,9 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f6f8;
+  /* background-color: #f4f6f8; */
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  margin: 0;
   padding: 20px;
 }
 
@@ -29,4 +32,5 @@ th {
 tr:nth-child(even) {
   background-color: #f2f2f2;
 }
+
 
