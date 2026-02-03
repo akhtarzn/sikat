@@ -16,6 +16,9 @@ table {
   margin: auto;
   border-collapse: collapse;
   background-color: white;
+  border-radius: 8px; /* Tambahan: sudut sedikit melengkung */
+  overflow: hidden;    /* Agar lengkungan terlihat */
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
 th, td {
@@ -32,5 +35,6 @@ th {
 tr:nth-child(even) {
   background-color: #f2f2f2;
 }
+
 
 
