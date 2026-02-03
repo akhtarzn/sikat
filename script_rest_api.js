@@ -42,6 +42,7 @@ fetch(`${SUPABASE_URL}/rest/v1/students?select=*`, {
       <td>${student.nis}</td>
       <td>${capitalize(student.name)}</td>
       <td>${classMap[student.class_id] || "Tidak diketahui"}</td>
+      <td>${student.created_at}</td>
     `;
 
     tbody.appendChild(row);
@@ -56,4 +57,5 @@ fetch(`${SUPABASE_URL}/rest/v1/students?select=*`, {
   `;
 
 });
+
 
