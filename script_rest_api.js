@@ -17,6 +17,15 @@ function capitalize(text) {
     .join(" ");
 }
 
+//helper format tanggal
+function formatTanggal(isoString) {
+  const date = new Date(isoString);
+  return new Intl.DateTimeFormat('id-ID', {
+    day: '2-digit', month: 'short', year: '2-digit',
+    hour: '2-digit', minute: '2-digit', hour12: false
+  }).format(date).replace(/\./g, ':');
+}
+
 fetch(`${SUPABASE_URL}/rest/v1/students?select=*`, {
   method: "GET",
   headers: {
@@ -42,7 +51,7 @@ fetch(`${SUPABASE_URL}/rest/v1/students?select=*`, {
       <td>${student.nis}</td>
       <td>✅ ${capitalize(student.name)}</td>
       <td>${classMap[student.class_id] || "Tidak diketahui"}</td>
-      <td>${student.created_at}</td>
+      <td>${formatTanggal(student.created_at)}</td>
     `;
 
     tbody.appendChild(row);
@@ -57,6 +66,7 @@ fetch(`${SUPABASE_URL}/rest/v1/students?select=*`, {
   `;
 
 });
+
 
 
 
