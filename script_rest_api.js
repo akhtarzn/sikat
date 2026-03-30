@@ -1,12 +1,14 @@
 const SUPABASE_URL = "https://psimaoheadjgoxhpwxrn.supabase.co";
-const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBzaW1hb2hlYWRqZ294aHB3eHJuIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjkwNTc3MTAsImV4cCI6MjA4NDYzMzcxMH0.vzAlZl22Uqr02WhFpEC98Ud5F4cwA7Qwuj_tDpuj4O4";
+const SUPABASE_KEY = "sb_publishable_MvIBQE_bND1qX-urkKAQEQ_uuX1sgvi";
+//const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBzaW1hb2hlYWRqZ294aHB3eHJuIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjkwNTc3MTAsImV4cCI6MjA4NDYzMzcxMH0.vzAlZl22Uqr02WhFpEC98Ud5F4cwA7Qwuj_tDpuj4O4";
 
 const tbody = document.getElementById("data-siswa");
 
 // contoh mapping kelas
 const classMap = {
   "dbd0c540-31d4-4d26-9650-81d2327b8b00": "XI-C1",
-  "281a8307-2387-4e3a-aea3-d60e01c9ae0d": "XI-C2"
+  "281a8307-2387-4e3a-aea3-d60e01c9ae0d": "XI-C2",
+  "b3166052-ec5b-4f10-bf2d-f36364318d23": "X-5"
 };
 
 // helper kapitalisasi nama
